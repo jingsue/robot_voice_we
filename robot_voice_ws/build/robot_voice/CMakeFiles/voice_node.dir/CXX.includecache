@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/llt/robot_voice_ws/src/robot_voice/include/robot_voice/msp_cmn.h
+msp_types.h
+/home/llt/robot_voice_ws/src/robot_voice/include/robot_voice/msp_types.h
+
+/home/llt/robot_voice_ws/src/robot_voice/include/robot_voice/msp_errors.h
+
+/home/llt/robot_voice_ws/src/robot_voice/include/robot_voice/msp_types.h
+
+/home/llt/robot_voice_ws/src/robot_voice/include/robot_voice/qisr.h
+msp_types.h
+/home/llt/robot_voice_ws/src/robot_voice/include/robot_voice/msp_types.h
+
+/home/llt/robot_voice_ws/src/robot_voice/include/robot_voice/speech_recognizer.h
+
+/home/llt/robot_voice_ws/src/robot_voice/src/demo.cpp
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+robot_voice/qisr.h
+/home/llt/robot_voice_ws/src/robot_voice/src/robot_voice/qisr.h
+robot_voice/msp_cmn.h
+/home/llt/robot_voice_ws/src/robot_voice/src/robot_voice/msp_cmn.h
+robot_voice/msp_errors.h
+/home/llt/robot_voice_ws/src/robot_voice/src/robot_voice/msp_errors.h
+robot_voice/speech_recognizer.h
+/home/llt/robot_voice_ws/src/robot_voice/src/robot_voice/speech_recognizer.h
+

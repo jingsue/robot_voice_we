@@ -1,0 +1,88 @@
+[0.046s] Invoking command in '/home/llt/robot_voice_ws/build/robot_voice': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/llt/robot_voice_ws/src/robot_voice -DCMAKE_INSTALL_PREFIX=/home/llt/robot_voice_ws/install/robot_voice
+[0.080s] -- The C compiler identification is GNU 9.4.0
+[0.115s] -- The CXX compiler identification is GNU 9.4.0
+[0.118s] -- Check for working C compiler: /usr/bin/cc
+[0.164s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.164s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.282s] -- Detecting CXX compiler ABI info
+[0.346s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Detecting CXX compile features
+[0.352s] -- Detecting CXX compile features - done
+[0.353s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.370s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.370s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.459s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.484s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.521s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.535s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.603s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.604s] -- Looking for pthread.h
+[0.616s] -- Looking for pthread.h - not found
+[0.616s] -- Found Threads: TRUE  
+[0.697s] -- Found ALSA: /usr/lib/x86_64-linux-gnu/libasound.so (found version "1.2.2") 
+[0.697s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.738s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.738s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.738s] -- Configured cppcheck include dirs: /home/llt/robot_voice_ws/src/robot_voice/include
+[0.739s] -- Configured cppcheck exclude dirs and/or files: 
+[0.739s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.739s] -- Configured cpplint exclude dirs and/or files: 
+[0.740s] -- Added test 'lint_cmake' to check CMake code style
+[0.740s] -- Added test 'uncrustify' to check C / C++ code style
+[0.740s] -- Configured uncrustify additional arguments: 
+[0.741s] -- Added test 'xmllint' to check XML markup files
+[0.742s] -- Configuring done
+[0.746s] -- Generating done
+[0.747s] -- Build files have been written to: /home/llt/robot_voice_ws/build/robot_voice
+[0.752s] Invoked command in '/home/llt/robot_voice_ws/build/robot_voice' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/llt/robot_voice_ws/src/robot_voice -DCMAKE_INSTALL_PREFIX=/home/llt/robot_voice_ws/install/robot_voice
+[0.754s] Invoking command in '/home/llt/robot_voice_ws/build/robot_voice': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/llt/robot_voice_ws/build/robot_voice -- -j16 -l16
+[0.779s] [35m[1mScanning dependencies of target voice_node[0m
+[0.785s] [ 25%] [32mBuilding CXX object CMakeFiles/voice_node.dir/src/demo.cpp.o[0m
+[0.785s] [ 50%] [32mBuilding C object CMakeFiles/voice_node.dir/src/linuxrec.c.o[0m
+[0.789s] [ 75%] [32mBuilding C object CMakeFiles/voice_node.dir/src/speech_recognizer.c.o[0m
+[0.801s] [01m[K/home/llt/robot_voice_ws/src/robot_voice/src/linuxrec.c:[m[K In function ‘[01m[Krecord_thread_proc[m[K’:
+[0.801s] [01m[K/home/llt/robot_voice_ws/src/robot_voice/src/linuxrec.c:334:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[0.801s]   334 |   if (pcm_read(rec, frames) [01;35m[K!=[m[K frames) {
+[0.801s]       |                             [01;35m[K^~[m[K
+[0.802s] At top level:
+[0.802s] [01m[K/home/llt/robot_voice_ws/src/robot_voice/src/linuxrec.c:529:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Klist_pcm[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[0.802s]   529 | static int [01;35m[Klist_pcm[m[K(snd_pcm_stream_t stream, char**name_out,
+[0.803s]       |            [01;35m[K^~~~~~~~[m[K
+[0.898s] [01m[K/home/llt/robot_voice_ws/src/robot_voice/src/demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.898s] [01m[K/home/llt/robot_voice_ws/src/robot_voice/src/demo.cpp:287:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.898s]   287 | int main([01;35m[Kint argc[m[K, char* argv[])
+[0.898s]       |          [01;35m[K~~~~^~~~[m[K
+[0.898s] [01m[K/home/llt/robot_voice_ws/src/robot_voice/src/demo.cpp:287:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.898s]   287 | int main(int argc, [01;35m[Kchar* argv[][m[K)
+[0.899s]       |                    [01;35m[K~~~~~~^~~~~~[m[K
+[0.934s] [100%] [32m[1mLinking CXX executable voice_node[0m
+[1.007s] [100%] Built target voice_node
+[1.013s] Invoked command in '/home/llt/robot_voice_ws/build/robot_voice' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/llt/robot_voice_ws/build/robot_voice -- -j16 -l16
+[1.037s] Invoking command in '/home/llt/robot_voice_ws/build/robot_voice': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/llt/robot_voice_ws/build/robot_voice
+[1.045s] -- Install configuration: ""
+[1.045s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/lib/robot_voice/voice_node
+[1.046s] -- Set runtime path of "/home/llt/robot_voice_ws/install/robot_voice/lib/robot_voice/voice_node" to ""
+[1.046s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/ament_index/resource_index/package_run_dependencies/robot_voice
+[1.046s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/ament_index/resource_index/parent_prefix_path/robot_voice
+[1.046s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/environment/ament_prefix_path.sh
+[1.046s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/environment/ament_prefix_path.dsv
+[1.046s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/environment/path.sh
+[1.046s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/environment/path.dsv
+[1.046s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/local_setup.bash
+[1.047s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/local_setup.sh
+[1.047s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/local_setup.zsh
+[1.047s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/local_setup.dsv
+[1.047s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/package.dsv
+[1.047s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/ament_index/resource_index/packages/robot_voice
+[1.047s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/cmake/robot_voiceConfig.cmake
+[1.047s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/cmake/robot_voiceConfig-version.cmake
+[1.047s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/package.xml
+[1.048s] Invoked command in '/home/llt/robot_voice_ws/build/robot_voice' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/llt/robot_voice_ws/build/robot_voice

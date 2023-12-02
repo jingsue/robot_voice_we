@@ -1,0 +1,22 @@
+[0.071s] Invoking command in '/home/llt/robot_voice_ws/build/robot_voice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/llt/robot_voice_ws/build/robot_voice -- -j16 -l16
+[0.111s] [100%] Built target voice_node
+[0.121s] Invoked command in '/home/llt/robot_voice_ws/build/robot_voice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/llt/robot_voice_ws/build/robot_voice -- -j16 -l16
+[0.153s] Invoking command in '/home/llt/robot_voice_ws/build/robot_voice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/llt/robot_voice_ws/build/robot_voice
+[0.157s] -- Install configuration: ""
+[0.157s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/lib/robot_voice/voice_node
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/ament_index/resource_index/package_run_dependencies/robot_voice
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/ament_index/resource_index/parent_prefix_path/robot_voice
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/environment/path.sh
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/environment/path.dsv
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/local_setup.bash
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/local_setup.sh
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/local_setup.zsh
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/local_setup.dsv
+[0.158s] -- Installing: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/package.dsv
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/ament_index/resource_index/packages/robot_voice
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/cmake/robot_voiceConfig.cmake
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/cmake/robot_voiceConfig-version.cmake
+[0.158s] -- Up-to-date: /home/llt/robot_voice_ws/install/robot_voice/share/robot_voice/package.xml
+[0.159s] Invoked command in '/home/llt/robot_voice_ws/build/robot_voice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/llt/robot_voice_ws/build/robot_voice
